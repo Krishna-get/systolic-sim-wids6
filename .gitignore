@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environments
+venv/
+.venv/
+env/
+
+# Simulation outputs — regenerate these, don't commit them
+outputs/
+*.log
+sweep_results/*.csv
+!reference/expected_outputs/*.json
+
+# SCALE-Sim run artefacts (Week 4)
+scalesim_out/
+test_run/
+
+# Plots: commit the final ones you reference in your report,
+# ignore the scratch ones
+plots/scratch/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
